@@ -1,0 +1,42 @@
+{
+    "name": "ske/app",
+    "type": "project",
+    "description": "A flexible framework for managing Web applications",
+    "homepage": "https://packagist.com/packages/ske/app",
+    "license": "Apache-2.0",
+    "keywords": [
+        "sikessem",
+        "website",
+        "application",
+	  	"framework"
+    ],
+  	"authors": [{
+		"name": "SIGUI Kessé Emmanuel",
+		"homepage": "https://dev.sikessem.com",
+		"email": "contact@sikessem.com",
+		"role": "Developer"
+  	}],
+    "scripts": {
+        "app": "./ske app"
+    },
+    "support": {
+        "source": "https://github.com/skefoss/ske-app",
+        "issues": "https://github.com/skefoss/ske-app/issues"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+  	"replace": {
+		"ske/ske": "*"
+  	},
+    "config": {
+        "web-dir": "client",
+	  	"bin-dir": "server",
+        "vendor-dir": "pkg",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "bin": "./ske",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

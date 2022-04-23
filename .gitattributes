@@ -1,0 +1,5 @@
+* text=auto
+
+*.php diff=php
+./ske text diff=php eol=lf
+./server/run text diff=php eol=lf

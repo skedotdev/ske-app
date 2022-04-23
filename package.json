@@ -1,0 +1,28 @@
+{
+  "name": "ske-app",
+  "version": "0.0.0",
+  "description": "A flexible framework for managing Web applications",
+  "homepage": "https://npmjs.org/package/ske-app",
+  "license": "Apache-2.0",
+  "main": "ske.js",
+  "scripts": {
+    "app": "./ske app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skefoss/ske-app.git"
+  },
+  "keywords": [
+    "sikessem",
+    "website",
+    "application",
+	"framework"
+  ],
+  "bin": {
+    "ske": "./ske"
+  },
+  "author": "SIGUI Kessé Emmanuel <contact@sikessem.com>",
+  "bugs": {
+    "url": "https://github.com/skefoss/ske-app/issues"
+  }
+}
