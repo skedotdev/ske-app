@@ -1,8 +1,8 @@
-/pkg/*
-!/pkg/ske/
+/php_packages/
 /node_modules/
 /composer.lock
-/yarn.lock
 /package-lock.json
+/yarn.lock
 /.env
 /.idea/
+/.vscode/
