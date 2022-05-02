@@ -1,6 +1,6 @@
 {
   "name": "ske-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create a new Ske Application",
   "homepage": "https://npmjs.org/package/ske-app",
   "license": "Apache-2.0",
